@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quoie Qwack ?!</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/cocogoose');
+</style>
+<script src="https://kit.fontawesome.com/36167a5273.js" crossorigin="anonymous"></script>
+
+<link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Quoie Qwack ?!</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="projet.html">Home</a></li>
+                    <li><a href="Team.html">Notre équipe</a></li>
+                    <li><a href="Article.html">Articles</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+
+                </ul>
+            </div> 
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home"> </section>
+
+    <section class="page2"> 
+        <h1> Quoie Qwack ?!</h1>
+        <h2> Mais c'est quOie ?</h2>
+        <p> Quoie Qwack ?! est un jeu mobile développer par le studio Play It Again. Disponible à la précommande, le jeu sortira le 15.09.2023 sur l'AppStore, le HuaweiStore ainsi que le PlayStore. </p>
+        <h3> Mais en quOie consiste le jeu ?</h3>
+        <p> Echangez avec QuOie pour retrouver vos souvenirs. Replongez dans votre enfance en jouant à des jeux qui vous ont vu grandir ! <br> Retour en <i>enfance</i> et <i>nostalgie</i> garantie ! </p>
+    </section>
+
+    
+        <div class="partie3">
+            <div class="container">
+                <i class=""></i>
+                <a href="https://www.instagram.com/doom/?hl=fr"><i class="fa-brands fa-instagram fa-bounce fa-2xl"></i></a>
+                <a href="https://twitter.com/doom?lang=fr"><i class="fa-brands fa-youtube fa-bounce fa-2xl"></i></a>
+                <a href="https://www.tiktok.com/search?lang=fr&q=doom%20eternal&t=1669371178303"><i class="fa-brands fa-tiktok fa-bounce fa-2xl">   </i></a>
+                <a href="https://www.youtube.com/results?search_query=doom"><i class="fa-brands fa-facebook fa-bounce fa-2xl"></i></a>
+                <i class=""></i>
+                
+
+            </div>
+        </div>
+
+        <div class="partie4"> 
+
+            <div class="container1">
+                <iframe width="1300" height="745"src="Vid.mp4">
+</iframe>
+            </div>
+            
+            
+
+
+        </div>
+
+        <div class="partie5">
+
+            
+                
+        </div>
+            
+        <div class="partie6">
+
+            <div class="slide-container">
+                <div class="custom-slider fade">
+                  <img class="slide-img" src="Promo.png">
+                  <div class="slide-text"></div>
+                </div>
+                <div class="custom-slider fade">
+                  <div class="slide-index"></div>
+                  <img class="slide-img" src="2.png">
+                  <div class="slide-text"></div>
+                </div>
+                <div class="custom-slider fade">
+                  <div class="slide-index"></div>
+                  <img class="slide-img" src="3.png">
+                  <div class="slide-text"></div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              <div class="slide-dot">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+              </div>
+
+              
+            </div>
+
+
+        </div>
+
+
+<!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+        
+
+        
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+<body>
+<footer>
+<div class="footer">
+<div class="row">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</div>
+
+<div class="row">
+<ul>
+<li><a href="#">Nous contacter</a></li>
+<li><a href="#">Nos jeux</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Termes & Conditions</a></li>
+
+</ul>
+</div>
+
+<div class="row">
+Play It Again Copyright © 2023 - All rights reserved 
+</div>
+</div>
+</footer>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
